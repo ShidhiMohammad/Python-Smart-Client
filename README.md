@@ -10,23 +10,23 @@ python3 SmartClient.py <url>
 
 ## Class Methods
 
-__init__(self, url: str)
+`__init__(self, url: str)`
 Initializes the SmartClient object with the provided URL.
 
-parseUrl(self, url: str) -> tuple
+`parseUrl(self, url: str) -> tuple`
 Parses the given URL and returns the domain and path.
 
-retrieveWebContent(self, domain: str=None, path: str=None, redirect_count: int=0) -> str
+`retrieveWebContent(self, domain: str=None, path: str=None, redirect_count: int=0) -> str`
 Retrieves web content from the server. Handles redirects recursively and returns the response as a string.
 
-supportsHttp2(self) -> bool
+`supportsHttp2(self) -> bool`
 Checks if the server supports HTTP/2 and returns a boolean value.
 
-printCookies(self, response: str)
+`printCookies(self, response: str)`
 Prints the cookies found in the server's response.
 
-isPasswordProtected(self, response: str) -> bool
+`isPasswordProtected(self, response: str) -> bool`
 Checks if the server's response is password-protected and returns a boolean value.
 
-run(self)
+`run(self)`
 Executes the client, prints the results, and handles errors.
