@@ -1,4 +1,4 @@
-# SmartClient README
+# SmartClient
 
 ## Overview
 The `SmartClient` class is a Python-based utility designed to interact with web servers. It can parse URLs, establish secure connections, handle redirects, check for HTTP/2 support, print cookies from the server's response, and determine whether the server’s response indicates password protection.
